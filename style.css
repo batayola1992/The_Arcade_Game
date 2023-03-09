@@ -1,0 +1,53 @@
+:root {
+  --blue: #180594;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--blue);
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 66px;
+  text-transform: uppercase;
+}
+
+.container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#gameboard {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blue);
+  font-size: 160px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: var(--blue);
+  color: azure;
+  border-color: var(--blue);
+  font-size: 20px;
+}
